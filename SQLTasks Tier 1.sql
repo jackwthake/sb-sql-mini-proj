@@ -115,7 +115,6 @@ WHERE b.starttime LIKE '2012-09-14 %'
     AND memid = 0
     AND f.guestcost > 30
 ORDER BY f.guestcost DESC
-""", DB_FILE)
 
 /* PART 2: SQLite
 /* We now want you to jump over to a local instance of the database on your machine. 
